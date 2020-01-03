@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.7d62b397116b86445b30b1125337d464.js"
+  "/precache-manifest.35bd3c4431b3eeb6ab408959bbb6a48a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "hack-front-vue"});
