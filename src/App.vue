@@ -11,7 +11,7 @@
             <AboutUs id="about-us"/>
             <Place id="place"/>
             <FAQ id="faq"/>
-            <Partners id="partners"/>
+<!--            <Partners id="partners"/>-->
         </main>
         <footer>
             <Contact id="contact"/>
@@ -27,9 +27,9 @@
   import AboutUs from './components/AboutUs'
   import Contact from './components/Contact'
   import FAQ from './components/FAQ'
-  import Partners from './components/Partners'
+  // import Partners from './components/Partners'
   import Place from './components/Place'
-  import Timer from './components/Timer'
+  // import Timer from './components/Timer'
 
   export default {
     name: 'app',
@@ -41,9 +41,9 @@
       AboutUs,
       Contact,
       FAQ,
-      Partners,
+      // Partners,
       Place,
-      Timer,
+      // Timer,
     },
   }
 </script>

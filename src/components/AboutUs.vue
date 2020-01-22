@@ -11,11 +11,11 @@
 
             <span>Za tegoroczną edycją wydarzenia Hacknarök stoją odważni wikingowie na czele z:</span>
             <ul class="list-unstyled mb-4 mb-sm-5">
-                <li><span class="font-weight-bold">Mateusz Leśniak</span> - Koordynator Główny</li>
-                <li><span class="font-weight-bold">Maria Mamica</span> - Koordynator ds. Pozyskiwania Funduszy</li>
-                <li><span class="font-weight-bold">Ewelina Niemczyk</span> - Koordynator ds. Promocji</li>
-                <li><span class="font-weight-bold">Hubert Kompanowski</span> - Koordynator ds. Logistyki</li>
-                <li><span class="font-weight-bold">Mateusz Kwaśny</span> - Koordynator ds. Administracji</li>
+                <li><span class="font-weight-bold">Mateusz Piątkowski</span> - Koordynator Główny</li>
+                <li><span class="font-weight-bold">Konrad Polarczyk</span> - Koordynator ds. Pozyskiwania Funduszy</li>
+                <li><span class="font-weight-bold">Klaudia Orłowska</span> - Koordynator ds. Promocji</li>
+                <li><span class="font-weight-bold">Błażej Szymczak</span> - Koordynator ds. Logistyki</li>
+<!--                <li><span class="font-weight-bold">Mateusz Kwaśny</span> - Koordynator ds. Administracji</li>-->
             </ul>
         </b-col>
     </b-row>

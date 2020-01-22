@@ -5,7 +5,7 @@
         </b-col>
         <b-col class="mx-auto" cols="11" lg="8" md="10">
             <p class="text-justify mb-4 mb-sm-5">
-                To już trzecia edycja hackathonu, którego nazwa bezpośrednio nawiązuje do Ragnaröku
+                To już czwarta edycja hackathonu, którego nazwa bezpośrednio nawiązuje do Ragnaröku
                 - wielkiej bitwy pomiędzy bogami a olbrzymami, w wyniku której siedzibę bogów trawi ogień, gwiazdy gasną, a z toni wyłania się nowy świat bez przemocy i wojen.
             </p>
 
@@ -17,7 +17,7 @@
             </p>
 
             <p class="text-justify mb-4 mb-sm-5">
-                Zapisy trwają od 1 do 22 marca, w razie jakichkolwiek pytań zapraszamy na stronę wydarzenia lub do kontaktu mailowego. Widzimy się już 6 kwietnia w Krakowskim Parku Technologicznym!
+                Zapisy trwają od 17 lutego do 2 marca, w razie jakichkolwiek pytań zapraszamy na stronę wydarzenia lub do kontaktu mailowego. Widzimy się już 21 marca w Krakowskim Parku Technologicznym!
             </p>
         </b-col>
     </b-row>
@@ -27,9 +27,7 @@
   export default {
     name: 'AboutProject',
     data () {
-      return {
-        ex: '<span class="text-danger">asdlasdjsaklda</span>',
-      }
+      return {}
     },
   }
 </script>

@@ -8,7 +8,7 @@
                 <b-navbar class="p-0 flex-fill d-flex flex-column align-items-stretch position-relative" toggleable="true" type="light" variant="faded">
                     <div class="py-3 horizontal flex-fill d-flex flex-column align-items-center bg-white min-vh-100 position-absolute" ref="collapse">
                         <b-navbar-brand class="m-0">
-                            <img alt="logo" class="img-fluid" src="@/assets/images/hackathon-logo2.png"/>
+                            <img alt="logo" class="img-fluid" src="@/assets/images/hackathon-logo3.png"/>
                         </b-navbar-brand>
 
                         <b-navbar-nav class="mt-4 font-weight-bold w-100">
@@ -58,11 +58,11 @@
             name: 'najczęściej zadawane pytania',
             href: 'faq',
           },
-          {
-            id: 7,
-            name: 'partnerzy',
-            href: 'partners',
-          },
+          // {
+          //   id: 7,
+          //   name: 'partnerzy',
+          //   href: 'partners',
+          // },
           {
             id: 8,
             name: 'kontakt',

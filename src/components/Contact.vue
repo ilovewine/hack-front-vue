@@ -33,8 +33,6 @@
 </template>
 
 <script>
-	// import regulations from '@/assets/regulamin.pdf'
-
 	export default {
 		name: 'Contact',
 		data () {

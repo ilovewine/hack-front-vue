@@ -22,7 +22,8 @@ export default [
   {
     id: 5,
     question: 'Jak mam zgłosić chęć wzięcia udziału w Hacknaröku?',
-    answer: 'Wystarczy, że Ty i pozostali członkowie Twojej drużyny wypełnicie formularz, do którego link pojawi się na naszej stronie oraz na wydarzeniu. Pamiętajcie, żeby podać tę samą nazwę zespołu! To dzięki niej będziemy wiedzieć, że jesteście jedną drużyną. Zapisy ruszają 1 marca 2019 i będą trwać do 22 marca.',
+    answer: 'Wystarczy, że Ty i pozostali członkowie Twojej drużyny wypełnicie formularz, do którego link pojawi się na naszej stronie oraz na wydarzeniu. Pamiętajcie, żeby podać tę samą nazwę' +
+      ' zespołu! To dzięki niej będziemy wiedzieć, że jesteście jedną drużyną. Zapisy ruszają 17 lutego 2020 i będą trwać do 2 marca.',
   },
   {
     id: 6,
@@ -57,7 +58,7 @@ export default [
   {
     id: 12,
     question: 'Co jeśli będę chciał przez chwilę odpocząć od projektu?',
-    answer: 'Rozumiemy, że praca przez 24 h bez przerwy nie jest łatwa. Dlatego, przez cały czas trwania konkursu będziecie mieli do dyspozycji Gaming Room z konsolami i planszówkami, Chillout Room z pufami oraz sofy w holu, gdzie będziecie mogli się zrelaksować.',
+    answer: 'Rozumiemy, że praca przez 24h bez przerwy nie jest łatwa. Dlatego, przez cały czas trwania konkursu będziecie mieli do dyspozycji Gaming Room z konsolami i planszówkami, Chillout Room z pufami oraz sofy w holu, gdzie będziecie mogli się zrelaksować.',
   },
   {
     id: 13,
