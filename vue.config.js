@@ -32,7 +32,7 @@ module.exports = {
 		svgRule.use('vue-svg-loader').loader('vue-svg-loader')
 	},
 	
-	publicPath: '/',
+	publicPath: './',
 	outputDir: 'dist',
 	assetsDir: 'assets',
 	runtimeCompiler: true,

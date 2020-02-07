@@ -1,50 +1,12 @@
 <template>
-    <b-container class="p-0" fluid id="app">
-        <header>
-            <Aside/>
-        </header>
-        <main>
-            <Main id="main"/>
-           <!-- <Timer id="timer"/>-->
-            <AboutProject id="about-project"/>
-            <Gallery id="gallery"/>
-            <AboutUs id="about-us"/>
-            <Place id="place"/>
-            <FAQ id="faq"/>
-<!--            <Partners id="partners"/>-->
-        </main>
-        <footer>
-            <Contact id="contact"/>
-        </footer>
-    </b-container>
+    <router-view/>
 </template>
 
 <script>
-  import Main from './components/Main'
-  import Aside from './components/Aside'
-  import AboutProject from './components/AboutProject'
-  import Gallery from './components/Gallery'
-  import AboutUs from './components/AboutUs'
-  import Contact from './components/Contact'
-  import FAQ from './components/FAQ'
-  // import Partners from './components/Partners'
-  import Place from './components/Place'
-  // import Timer from './components/Timer'
 
   export default {
     name: 'app',
-    components: {
-      Aside,
-      Main,
-      AboutProject,
-      Gallery,
-      AboutUs,
-      Contact,
-      FAQ,
-      // Partners,
-      Place,
-      // Timer,
-    },
+    components: {},
   }
 </script>
 
