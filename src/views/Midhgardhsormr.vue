@@ -1,15 +1,26 @@
 <template>
     <div>
         <h2>Hover over the page to find the hidden clue.</h2>
-        <h3 class="answer display-1">apex-155</h3>
+        <p v-for="number in 249" :key="number">
+            <span class="d-none">{{ lorem }}</span>
+        </p>
+        <p>
+            <span class="answer display-1 font-weight-bold">apex-155</span>
+        </p>
+        <p v-for="number in 158" :key="number">
+            <span class="d-none">{{ lorem }}</span>
+        </p>
     </div>
 </template>
 
 <script>
+    import lorem from '@/assets/lorem'
   export default {
     name: 'Midhgardhsormr',
     data () {
-      return {}
+      return {
+        lorem
+      }
     },
     components: {},
     methods: {},
