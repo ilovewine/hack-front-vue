@@ -1,5 +1,6 @@
 <template>
     <div :style="{backgroundImage: `url(${require('@/assets/images/header-bg.jpg')})`}" class="background d-flex flex-column position-relative">
+        <LetItSnow v-bind="snowOptions" :show="true"/>
         <b-row class="justify-content-center align-items-center flex-fill" no-gutters>
             <b-col class="mx-auto" cols="10" lg="12" md="8">
                 <div class="d-flex flex-column align-items-center">
@@ -10,21 +11,36 @@
         </b-row>
         <b-row class="justify-content-center align-items-end position-absolute" no-gutters v-if="applicable">
             <b-col class="mb-2 mb-lg-5 d-flex justify-content-center" cols="12">
-                <b-button :to="applicationForm" class="apply" target="_blank">APLIKUJ</b-button>
+                <b-button :href="applicationForm" class="apply" target="_blank">APLIKUJ</b-button>
             </b-col>
         </b-row>
     </div>
 </template>
 
 <script>
+  import LetItSnow from 'vue-let-it-snow'
+
   export default {
     name: 'Main',
     data () {
       return {
-        applicable: false,
-        applicationForm: 'https://docs.google.com/forms/d/e/1FAIpQLSfTQTz3Q6LM3ahQNiyipqFRX4vcOuxH8xUdVVXKuAAc5JLvvw/viewform',
+        applicable: true,
+        applicationForm: 'https://forms.gle/V4kbnGhSp1P9KF496',
+        snowOptions: {
+          windPower : 1,
+          interaction: true,
+          speed : 3,
+          count : 20,
+          size : 10,
+          opacity : 0.7,
+          color: '#ffffff',
+          images: ['../assets/icons/runes/algiz.svg']
+        }
       }
     },
+    components: {
+      LetItSnow,
+    }
   }
 </script>
 
