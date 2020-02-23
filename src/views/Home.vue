@@ -5,7 +5,7 @@
         </header>
         <main>
             <Main id="main"/>
-            <!-- <Timer id="timer"/>-->
+            <Timer id="timer"/>
             <AboutProject id="about-project"/>
             <Gallery id="gallery"/>
             <AboutUs id="about-us"/>
@@ -29,7 +29,8 @@
   import FAQ from '../components/FAQ'
   // import Partners from '../components/Partners'
   import Place from '../components/Place'
-  // import Timer from '../components/Timer'
+  import Timer from '../components/Timer'
+
   export default {
     name: 'home',
     components: {
@@ -41,6 +42,7 @@
       FAQ,
       Aside,
       Contact,
+      Timer,
     },
   }
 </script>

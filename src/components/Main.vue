@@ -1,6 +1,8 @@
 <template>
     <div :style="{backgroundImage: `url(${require('@/assets/images/header-bg.jpg')})`}" class="background d-flex flex-column position-relative">
-        <LetItSnow v-bind="snowOptions" :show="true"/>
+        <Snowf v-bind="snowConf" :image="runes.algiz" />
+        <Snowf v-bind="snowConf" :image="runes.mannaz" />
+        <Snowf v-bind="snowConf" :image="runes.thurisaz" />
         <b-row class="justify-content-center align-items-center flex-fill" no-gutters>
             <b-col class="mx-auto" cols="10" lg="12" md="8">
                 <div class="d-flex flex-column align-items-center">
@@ -18,29 +20,33 @@
 </template>
 
 <script>
-  import LetItSnow from 'vue-let-it-snow'
+  import Snowf from 'vue-snowf'
 
   export default {
     name: 'Main',
     data () {
       return {
-        applicable: true,
         applicationForm: 'https://forms.gle/V4kbnGhSp1P9KF496',
-        snowOptions: {
-          windPower : 1,
-          interaction: true,
-          speed : 3,
-          count : 20,
-          size : 10,
-          opacity : 0.7,
-          color: '#ffffff',
-          images: ['../assets/icons/runes/algiz.svg']
+        snowConf: {
+          amount: 10,
+          size: 15,
+          speed: 1.5,
+        },
+        runes: {
+          algiz: require('@/assets/icons/runes/png/algiz.png'),
+          mannaz: require('@/assets/icons/runes/png/mannaz.png'),
+          thurisaz: require('@/assets/icons/runes/png/thurisaz.png'),
         }
       }
     },
     components: {
-      LetItSnow,
-    }
+      Snowf,
+    },
+    computed: {
+      applicable () {
+        return new Date(2020, 1, 17) <= Date.now() && new Date(2020, 2, 2) >= Date.now()
+      },
+    },
   }
 </script>
 
