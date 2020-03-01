@@ -1,8 +1,8 @@
 <template>
     <div :style="{backgroundImage: `url(${require('@/assets/images/header-bg.jpg')})`}" class="background d-flex flex-column position-relative">
-        <Snowf v-bind="snowConf" :image="runes.algiz" />
-        <Snowf v-bind="snowConf" :image="runes.mannaz" />
-        <Snowf v-bind="snowConf" :image="runes.thurisaz" />
+        <template v-for="(rune, index) of runes">
+            <Snowf v-bind="snowConf" :image="rune" :key="index" />
+        </template>
         <b-row class="justify-content-center align-items-center flex-fill" no-gutters>
             <b-col class="mx-auto" cols="10" lg="12" md="8">
                 <div class="d-flex flex-column align-items-center">
@@ -36,6 +36,8 @@
           algiz: require('@/assets/icons/runes/png/algiz.png'),
           mannaz: require('@/assets/icons/runes/png/mannaz.png'),
           thurisaz: require('@/assets/icons/runes/png/thurisaz.png'),
+          tiwaz: require('@/assets/icons/runes/png/tiwaz.png'),
+          raido: require('@/assets/icons/runes/png/raido.png'),
         }
       }
     },
