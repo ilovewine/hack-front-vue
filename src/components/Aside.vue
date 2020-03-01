@@ -33,11 +33,11 @@
             name: 'start',
             href: 'main',
           },
-          // {
-          //   id: 2,
-          //   name: 'czas',
-          //   href: 'timer',
-          // },
+          {
+            id: 2,
+            name: 'czas',
+            href: 'timer',
+          },
           {
             id: 3,
             name: 'o projekcie',
@@ -58,11 +58,11 @@
             name: 'najczęściej zadawane pytania',
             href: 'faq',
           },
-          // {
-          //   id: 7,
-          //   name: 'partnerzy',
-          //   href: 'partners',
-          // },
+          {
+            id: 7,
+            name: 'partnerzy',
+            href: 'partners',
+          },
           {
             id: 8,
             name: 'kontakt',
