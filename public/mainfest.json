@@ -1,0 +1,15 @@
+{
+  "name": "hacknarok",
+  "short_name": "hacknarok",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "38x38",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3E1022"
+}
