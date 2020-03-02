@@ -1,5 +1,5 @@
 <template>
-    <b-col class="my-4 d-flex align-items-center mx-auto" cols="6" lg="3" sm="4">
+    <b-col class="my-4 d-flex align-items-center mx-auto" :cols="mainPartner ? '11' : '6'" :lg="mainPartner ? '6' : '3'" :sm="mainPartner ? '8' : '4'">
         <b-link @click="$emit('choose-partner', partner)" class="flex-fill d-flex align-items-center" v-b-modal="'partner'" v-if="partner.text">
             <img :alt="partner.name" :src="partner.image" class="img-fluid mx-auto"/>
         </b-link>
@@ -12,7 +12,16 @@
 <script>
   export default {
     name: 'Partner',
-    props: ['partner'],
+    props: {
+      partner: {
+        required: true,
+        type: Object
+      },
+      mainPartner: {
+        default: false,
+        type: Boolean
+      }
+    },
 
   }
 </script>

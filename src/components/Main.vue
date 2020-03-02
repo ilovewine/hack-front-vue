@@ -1,8 +1,9 @@
 <template>
-    <div :style="{backgroundImage: `url(${require('@/assets/images/header-bg.jpg')})`}" class="background d-flex flex-column position-relative">
-        <template v-for="(rune, index) of runes">
-            <Snowf v-bind="snowConf" :image="rune" :key="index" />
-        </template>
+    <div :style="{backgroundImage: `url(${isWinter ? require('@/assets/images/mountains.jpg') : require('@/assets/images/sea.png')})`}" class="background d-flex flex-column position-relative">
+<!--        <template v-for="(rune, index) of runes">-->
+<!--            <Snowf v-bind="snowConf" :image="rune" :key="index" />-->
+            <Snowf v-bind="snowConf" v-if="isWinter" />
+<!--        </template>-->
         <b-row class="justify-content-center align-items-center flex-fill" no-gutters>
             <b-col class="mx-auto" cols="10" lg="12" md="8">
                 <div class="d-flex flex-column align-items-center">
@@ -28,17 +29,19 @@
       return {
         applicationForm: 'https://forms.gle/V4kbnGhSp1P9KF496',
         snowConf: {
-          amount: 10,
-          size: 15,
-          speed: 1.5,
+          amount: 150,
+          size: 7,
+          speed: 4,
+          wind: 2,
+          opacity: 0.6
         },
-        runes: {
-          algiz: require('@/assets/icons/runes/png/algiz.png'),
-          mannaz: require('@/assets/icons/runes/png/mannaz.png'),
-          thurisaz: require('@/assets/icons/runes/png/thurisaz.png'),
-          tiwaz: require('@/assets/icons/runes/png/tiwaz.png'),
-          raido: require('@/assets/icons/runes/png/raido.png'),
-        }
+        // runes: {
+        //   algiz: require('@/assets/icons/runes/png/algiz.png'),
+        //   mannaz: require('@/assets/icons/runes/png/mannaz.png'),
+        //   thurisaz: require('@/assets/icons/runes/png/thurisaz.png'),
+        //   tiwaz: require('@/assets/icons/runes/png/tiwaz.png'),
+        //   raido: require('@/assets/icons/runes/png/raido.png'),
+        // }
       }
     },
     components: {
@@ -46,8 +49,12 @@
     },
     computed: {
       applicable () {
-        return new Date(2020, 1, 17) <= Date.now() && new Date(2020, 2, 2) >= Date.now()
+        return new Date(2020, 1, 17) <= Date.now() && new Date(2020, 2, 3) >= Date.now()
       },
+      isWinter() {
+        const today = new Date()
+        return (today.getMonth() === 12 && today.getDate() >= 22) || (today.getMonth() <= 2 && today.getDate() <= 20)
+      }
     },
   }
 </script>

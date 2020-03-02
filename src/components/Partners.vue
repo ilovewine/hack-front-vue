@@ -18,7 +18,7 @@
         </b-col>
         <b-col class="mx-auto" cols="11" lg="8" md="10">
             <b-row>
-                <Partner :partner="partners.first" @choose-partner="choosePartner($event)"/>
+                <Partner mainPartner :partner="partners.first" @choose-partner="choosePartner($event)"/>
             </b-row>
         </b-col>
 
