@@ -1,7 +1,14 @@
 const merge = require('babel-merge')
 const path = require('path')
 
+
 module.exports = {
+  pwa: {
+    workboxOptions: {
+      cleanupOutdatedCaches: true
+    }
+  },
+  
 	css: {
 		sourceMap: true,
 	},
