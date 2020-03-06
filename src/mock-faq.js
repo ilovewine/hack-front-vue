@@ -28,7 +28,7 @@ export default [
   {
     id: 6,
     question: 'Czy mogę zgłosić się bez drużyny?',
-    answer: 'Przykro nam, ale Hacknarök to konkurs drużynowy. Jeśli nie masz pomysłu na to, z kim mógłbyś stworzyć swój wymarzony zespół, śledź nasze wydarzenie na Facebooku! Pojawi się tam grupa dla osób, które jeszcze nie mają kompletnej drużyny.',
+    answer: 'Przykro nam, ale Hacknarök to konkurs drużynowy. Jeśli nie masz pomysłu na to, z kim mógłbyś stworzyć swój wymarzony zespół, śledź nasze wydarzenie na Facebooku!',
   },
   {
     id: 7,
@@ -68,6 +68,6 @@ export default [
   {
     id: 14,
     question: 'Co zrobić jeśli nie ma tu mojego pytania?',
-    answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres hacknarok@eestec.pl lub mateusz.kwasny@eestec.pl. Z chęcią odpowiemy na twoje pytania!',
+    answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres hacknarok@eestec.pl lub mateusz.piatkowski@eestec.pl. Z chęcią odpowiemy na Twoje pytania!',
   },
 ]

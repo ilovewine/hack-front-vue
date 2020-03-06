@@ -2,11 +2,11 @@ const merge = require('babel-merge')
 const path = require('path')
 
 module.exports = {
-	css: {
+    css: {
 		sourceMap: true,
 	},
-	
-	chainWebpack: config => {
+
+    chainWebpack: config => {
 		config.module.rule('vue').
 			use('vue-loader').
 			loader('vue-loader').
@@ -31,15 +31,11 @@ module.exports = {
 		
 		svgRule.use('vue-svg-loader').loader('vue-svg-loader')
 	},
-	
-	publicPath: './',
-	outputDir: 'dist',
-	assetsDir: 'assets',
-	runtimeCompiler: true,
-	productionSourceMap: undefined,
-	parallel: undefined,
-	
-	pluginOptions: {
+
+    publicPath: './',
+    assetsDir: 'assets',
+
+    pluginOptions: {
 		'style-resources-loader': {
 			preProcessor: 'scss',
 			patterns: [
@@ -49,5 +45,5 @@ module.exports = {
 				path.resolve(__dirname, './src/assets/sass/animations.scss'),
 			],
 		},
-	},
+	}
 }
