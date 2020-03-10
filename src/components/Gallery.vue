@@ -46,14 +46,14 @@
                     color: transparent;
                     height: 15px;
                     width: 15px;
-                    background-color: $blue-dark;
-                    border-radius: 50%;
+                    background-color: $white;
+                    border-radius: 100px;
                     display: inline-block;
                     border-color: $blue-dark;
                     @extend .mx-1;
                 }
                 &.agile__dot--current button {
-                    background-color: $white;
+                    background-color: $blue-dark;
                 }
 
                 /*visibility: hidden;*/

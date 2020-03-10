@@ -25,6 +25,12 @@ export default {
 // `,
     },
     {
+      image: require('@/assets/images/partners/dfs.png'),
+      href: 'https://www.doverfuelingsolutions.com/',
+      name: 'dfs',
+//       text: ``,
+    },
+    {
       image: require('@/assets/images/partners/avsystem.jpg'),
       href: 'https://www.avsystem.com/',
       name: 'avsystem',
