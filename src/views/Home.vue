@@ -9,7 +9,7 @@
       <AboutProject id="about-project" />
       <Gallery id="gallery" />
       <AboutUs id="about-us" />
-      <Place id="place" />
+<!--      <Place id="place" />-->
       <FAQ id="faq" />
       <Partners id="partners" />
     </main>

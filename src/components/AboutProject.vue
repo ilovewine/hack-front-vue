@@ -11,14 +11,14 @@
 
             <h3>Chcesz stworzyć z nami Nowy Świat?</h3>
             <p class="text-justify mb-4 mb-sm-5">
-                U nas walka odbywa się z wykorzystaniem siły linijek kodu, które napiszesz razem z Twoim zespołem. Na 24 godziny Krakowski Park Technologiczny zamieni się w arenę z atmosferą
+                U nas walka odbywa się z wykorzystaniem siły linijek kodu, które napiszesz razem z Twoim zespołem. Na 24 godziny Twoja przestrzeń zamieni się w arenę z atmosferą
                 sprzyjającą niemal boskim, twórczym siłom. Razem z naszymi partnerami zadbaliśmy o to, by było o co walczyć, a obecni podczas wydarzenia mentorzy będą gotowi znaleźć wyjaśnienie na
                 każdą wątpliwość.
             </p>
 
-            <p class="text-justify mb-4 mb-sm-5">
-                Zapisy trwają od 17 lutego do 2 marca, w razie jakichkolwiek pytań zapraszamy na stronę wydarzenia lub do kontaktu mailowego. Widzimy się już 21 marca w Krakowskim Parku Technologicznym!
-            </p>
+<!--            <p class="text-justify mb-4 mb-sm-5">-->
+<!--                Zapisy trwają od 17 lutego do 2 marca, w razie jakichkolwiek pytań zapraszamy na stronę wydarzenia lub do kontaktu mailowego. Widzimy się już 21 marca w Krakowskim Parku Technologicznym!-->
+<!--            </p>-->
         </b-col>
     </b-row>
 </template>

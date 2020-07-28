@@ -1,14 +1,11 @@
 <template>
     <div :style="{backgroundImage: `url(${isWinter ? require('@/assets/images/mountains.jpg') : require('@/assets/images/sea.png')})`}" class="background d-flex flex-column position-relative">
-<!--        <template v-for="(rune, index) of runes">-->
-<!--            <Snowf v-bind="snowConf" :image="rune" :key="index" />-->
-            <Snowf v-bind="snowConf" v-if="isWinter" />
-<!--        </template>-->
+        <Snowf v-bind="snowConf" v-if="isWinter" />
         <b-row class="justify-content-center align-items-center flex-fill" no-gutters>
             <b-col class="mx-auto" cols="10" lg="12" md="8">
                 <div class="d-flex flex-column align-items-center">
                     <img :src="require('@/assets/images/header-logo.png')" alt="Hacknarök" class="img-fluid"/>
-                    <h1 class="text-white text-center mt-4 primary-font">Krakowski Park Technologiczny<br/>21-22 marca</h1>
+                    <h1 class="text-white text-center mt-4 primary-font">Online<br/>29-30 sierpnia</h1>
                 </div>
             </b-col>
         </b-row>

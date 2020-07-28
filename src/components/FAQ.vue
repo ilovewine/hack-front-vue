@@ -5,10 +5,10 @@
         </b-col>
         <b-col class="mx-auto" cols="11" lg="8" md="10">
             <b-row>
-                <b-col :key="object.id" class="my-2 my-sm-4 d-flex" cols="12" sm="6" v-for="object in faq">
+                <b-col :key="index" class="my-2 my-sm-4 d-flex" cols="12" sm="6" v-for="(object, index) in faq">
                     <div class="flex-fill d-flex flex-column align-items-stretch">
-                        <b-button class="h6 text-center" size="sm" v-b-toggle="`collapse${object.id}`">{{ object.question }}</b-button>
-                        <b-collapse :id="`collapse${object.id}`" class="text-center secondary-font" tag="p">
+                        <b-button class="h6 text-center" size="sm" v-b-toggle="`collapse${index}`">{{ object.question }}</b-button>
+                        <b-collapse :id="`collapse${index}`" class="text-center secondary-font" tag="p">
                             {{ object.answer }}
                         </b-collapse>
                     </div>
