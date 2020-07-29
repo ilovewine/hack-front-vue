@@ -15,3 +15,5 @@ deploy:
     script: bash ./iac/deploy.sh $PRD_LOCATION
     on:
       branch: master
+
+# Valuable guide about ssh deploy -> https://github.com/dwyl/learn-travis/blob/master/encrypted-ssh-keys-deployment.md
