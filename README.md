@@ -26,4 +26,10 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).__
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Travis CI/CD
+
+Repository dashboard - https://travis-ci.org/github/EESTEC-AGH-Krakow/eestec-website-hack-frontend
+
+[GUIDE] How to make deployment with encrypted ssh keys - https://github.com/dwyl/learn-travis/blob/master/encrypted-ssh-keys-deployment.md
