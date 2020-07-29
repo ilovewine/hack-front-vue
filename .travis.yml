@@ -9,7 +9,7 @@ deploy:
     skip_cleanup: true
     script: bash ./iac/deploy.sh $DEV_LOCATION
     on:
-      branch: feature/add_travis_setup
+      branch: develop
   - provider: script
     skip_cleanup: true
     script: bash ./iac/deploy.sh $PRD_LOCATION
