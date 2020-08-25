@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Look closely into my face.</h2>
+        <h2 class="invisible">Look closely into my face.</h2>
         <img class="img-fluid w-50" src="@/assets/images/hackathon-logo3.png" alt="logo">
     </div>
 </template>

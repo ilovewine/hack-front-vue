@@ -21,12 +21,12 @@ export default new Router({
       component: () => import(/* webpackChunkName: "midhgardhsormr" */ './views/Midhgardhsormr.vue')
     },
     {
-      path: '/apex-155',
-      name: 'reminder',
+      path: '/helheim',
+      name: 'helheim',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "reminder" */ './views/Reminder.vue')
+      component: () => import(/* webpackChunkName: "helheim" */ './views/Helheim.vue')
     },
     {
       path: '/anonymous-viking',
