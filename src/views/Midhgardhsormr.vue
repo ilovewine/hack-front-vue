@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h2>Hover over the page to find the hidden clue.</h2>
+        <h2 class="invisible">Hover over the page to find the hidden clue.</h2>
         <p v-for="number in 249" :key="number">
             <span class="d-none">{{ lorem }}</span>
         </p>
         <p>
-            <span class="answer display-1 font-weight-bold">apex-155</span>
+            <span class="answer display-1 font-weight-bold">/helheim</span>
         </p>
         <p v-for="number in 158" :key="number">
             <span class="d-none">{{ lorem }}</span>
