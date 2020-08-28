@@ -1,11 +1,16 @@
 export default {
-  first: {
-    image: require('@/assets/images/partners/sabre.png'),
-    href: 'https://www.sabre.com/locations/poland/',
-    name: 'Sabre',
-    // text: `to jest tekst o sabre`,
-  },
+  // first: {
+  //   image: require('@/assets/images/partners/sabre.png'),
+  //   href: 'https://www.sabre.com/locations/poland/',
+  //   name: 'Sabre',
+  //   // text: `to jest tekst o sabre`,
+  // },
   second: [
+    {
+      image: require('@/assets/images/partners/sabre.png'),
+      href: 'https://www.sabre.com/locations/poland/',
+      name: 'Sabre',
+    },
     {
       image: require('@/assets/images/partners/assa_abloy.jpg'),
       href: 'https://www.assaabloy.com/en/com/',
@@ -24,12 +29,12 @@ export default {
 // ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
 // `,
     },
-    {
-      image: require('@/assets/images/partners/dfs.png'),
-      href: 'https://www.doverfuelingsolutions.com/',
-      name: 'dfs',
-//       text: ``,
-    },
+//     {
+//       image: require('@/assets/images/partners/dfs.png'),
+//       href: 'https://www.doverfuelingsolutions.com/',
+//       name: 'dfs',
+// //       text: ``,
+//     },
     {
       image: require('@/assets/images/partners/avsystem.jpg'),
       href: 'https://www.avsystem.com/',
