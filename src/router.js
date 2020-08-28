@@ -31,6 +31,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "pattern" */ './views/ctf/Pattern.vue')
     },
     {
+      path: '/ctf/longest-number',
+      name: 'longest',
+      component: () => import(/* webpackChunkName: "longest" */ './views/ctf/LongestNumber.vue')
+    },
+    {
       path: '/anonymous-viking',
       beforeEnter(){
         window.location.href = 'https://www.facebook.com/Anonimowy-Wiking-105335621006471'
