@@ -13,20 +13,22 @@ export default new Router({
       component: Home
     },
     {
-      path: '/midhgardhsormr',
+      path: '/ctf/midhgardhsormr',
       name: 'midhgardhsormr',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "midhgardhsormr" */ './views/Midhgardhsormr.vue')
+      component: () => import(/* webpackChunkName: "midhgardhsormr" */ './views/ctf/Midhgardhsormr.vue')
     },
     {
-      path: '/helheim',
+      path: '/ctf/helheim',
       name: 'helheim',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "helheim" */ './views/Helheim.vue')
+      component: () => import(/* webpackChunkName: "helheim" */ './views/ctf/Helheim.vue')
+    },
+    {
+      path: '/ctf/pattern',
+      name: 'pattern',
+      component: () => import(/* webpackChunkName: "pattern" */ './views/ctf/Pattern.vue')
     },
     {
       path: '/anonymous-viking',
