@@ -7,7 +7,7 @@
         <p>
             <span class="answer display-1 font-weight-bold">/helheim</span>
         </p>
-        <p v-for="number in 158" :key="number">
+        <p v-for="number in 158" :key="-number">
             <span class="d-none">{{ lorem }}</span>
         </p>
     </div>
