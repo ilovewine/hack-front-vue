@@ -1,9 +1,9 @@
 <template>
    <b-form>
        <label>
-           <span>What is the longest number in the world?</span>
+           <span class="text-white">What is the longest number in the world?</span>
            <b-input v-model="number" type="number" />
-           <span v-if="passed">flag_Gimle</span>
+           <span class="text-white" v-if="passed">flag_Gimle</span>
        </label>
    </b-form>
 </template>

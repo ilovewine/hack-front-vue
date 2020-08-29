@@ -2,8 +2,8 @@
     <b-container fluid class="vh-100">
         <b-row class="vh-100">
             <b-col cols="12" class="vh-100">
-                <font-awesome-icon icon="play" ref="playButton" class="play-icon" @click="runPuzzle"></font-awesome-icon>
-                <span>{{ text }}</span>
+                <font-awesome-icon icon="play" ref="playButton" class="play-icon" @click="runPuzzle"></font-awesome-icon><br>
+                <span>{{ text }}</span><br>
                 <span v-if="isSolved">flag_Forseti</span>
                 <Ripple :left="`${location.left}px`" :top="`${location.top}px`"
                         @animation-finish="changeRippleLocation" ref="rippleAccessor" v-if="currentRipple < 7"/>

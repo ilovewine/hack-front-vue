@@ -1,18 +1,13 @@
 <template>
-  <div>
-    <b-container fluid class="background" :style="{backgroundImage: `url(${require('@/assets/images/sea.png')})`}">
+  <main class="d-flex">
+    <b-container fluid class="background flex-fill" :style="{backgroundImage: `url(${require('@/assets/images/sea.png')})`}">
       <b-row>
-        <b-col>
-          <h1>Capture The Flag</h1>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
+        <b-col cols="10" offset="1">
           <router-view/>
         </b-col>
       </b-row>
     </b-container>
-  </div>
+  </main>
 </template>
 
 <script>

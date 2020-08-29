@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <h2 class="invisible">Look closely into my face.</h2>
+    <div class="d-flex align-items-center justify-content-center">
+      <h2 class="d-none">Look closely into my face.</h2>
+        <span class="text-white">flag_</span>
         <img class="img-fluid w-50" src="@/assets/images/hackathon-logo3.png" alt="logo">
     </div>
 </template>

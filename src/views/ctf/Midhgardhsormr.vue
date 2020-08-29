@@ -5,7 +5,7 @@
             <span class="d-none">{{ lorem }}</span>
         </p>
         <p>
-            <span class="answer display-1 font-weight-bold">/helheim</span>
+            <span class="answer display-1 font-weight-bold text-white">/helheim</span>
         </p>
         <p v-for="number in 158" :key="-number">
             <span class="d-none">{{ lorem }}</span>
@@ -32,10 +32,11 @@
 <style scoped lang="scss">
     .answer {
         position: absolute;
-        left: 35%;
-        top: 74%;
+        left: 12vw;
+        top: 74vh;
         opacity: 0;
         transition: $transition-base;
+        z-index: 10000000;
         &:hover {
             opacity: 1;
         }
