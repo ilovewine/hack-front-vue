@@ -36,7 +36,7 @@ export default {
         },
         {
           name: 'JS',
-          link: '/ctf/flag2.pdf',
+          link: '/ctf/flag22.pdf',
         },
         {
           name: 'Sama Logika',
