@@ -22,6 +22,9 @@ export default new Router({
       path: '/ctf',
       name: 'ctf',
       component: () => import(/* webpackChunkName: "ctf" */ './views/CTF.vue'),
+      beforeEnter(to, from, next) {
+        next(false)
+      },
       children: [
         {
           path: '/',
