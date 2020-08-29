@@ -35,7 +35,7 @@ export default {
           link: '/ctf',
         },
         {
-          name: 'Python',
+          name: 'JS',
           link: '/ctf/flag2.pdf',
         },
         {
