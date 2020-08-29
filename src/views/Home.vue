@@ -1,5 +1,5 @@
 <template>
-  <b-container class="p-0" fluid id="app">
+  <div>
     <header>
       <Aside />
     </header>
@@ -16,7 +16,7 @@
     <footer>
       <Contact id="contact" />
     </footer>
-  </b-container>
+  </div>
 </template>
 
 <script>

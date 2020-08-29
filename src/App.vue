@@ -1,5 +1,7 @@
 <template>
+  <b-container class="p-0" fluid id="app-wrapper">
     <router-view/>
+  </b-container>
 </template>
 
 <script>
@@ -46,7 +48,7 @@
         font-size: 30px;
     }
 
-    #app {
+    #app-wrapper {
         display: flex;
         min-height: 100vh;
         flex-direction: column;

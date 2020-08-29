@@ -12,7 +12,7 @@
                         </b-navbar-brand>
 
                         <b-navbar-nav class="mt-4 font-weight-bold w-100">
-                            <b-nav-item :key="link.id" @click="scrollTo(link)" class="text-center" href="#" v-for="link in links">{{ link.name }}</b-nav-item>
+                            <b-nav-item :key="id" @click="scrollTo(link)" class="text-center" href="#" v-for="(link, id) in links">{{ link.name }}</b-nav-item>
                         </b-navbar-nav>
                     </div>
                 </b-navbar>
@@ -29,42 +29,34 @@
         showCollapse: false,
         links: [
           {
-            id: 1,
             name: 'start',
             href: 'main',
           },
           {
-            id: 2,
             name: 'czas',
             href: 'timer',
           },
           {
-            id: 3,
             name: 'o projekcie',
             href: 'about-project',
           },
           {
-            id: 4,
             name: 'o nas',
             href: 'about-us',
           },
+          // {
+          //   name: 'jak dojechać',
+          //   href: 'place',
+          // },
           {
-            id: 5,
-            name: 'jak dojechać',
-            href: 'place',
-          },
-          {
-            id: 6,
             name: 'najczęściej zadawane pytania',
             href: 'faq',
           },
           {
-            id: 7,
             name: 'partnerzy',
             href: 'partners',
           },
           {
-            id: 8,
             name: 'kontakt',
             href: 'contact',
           },
