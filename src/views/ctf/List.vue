@@ -35,7 +35,7 @@ export default {
           link: '/ctf',
         },
         {
-          name: 'Korniki',
+          name: 'Python',
           link: '/ctf/flag2.pdf',
         },
         {
@@ -67,6 +67,7 @@ export default {
         'Poniżej znajduje się lista wszystkich zadań tego konkursu',
         'Każda jest w formacie "flag_{wartość}"',
         'Wartość flagi jest zgodna z następującą ekspresją regularną: [A-Za-z0-9]',
+        'Wielkość liter ma znaczenie!',
         'Warunkiem wygranej jest złożenie wszystkich flag Organizatorom',
         'Wygrywa pierwsza drużyna, która poprawnie poda wszystkie flagi',
       ],
