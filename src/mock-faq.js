@@ -17,7 +17,7 @@ export default [
   },
   {
     question: 'Jak mam zgłosić chęć wzięcia udziału w Hacknaröku?',
-    answer: 'Udział mogą wziąć zespoły, które zakwalikwikowały się do hackathonu w marcu. Do zakwalifikowanych uczestników zostały wysłane maile. Śledź nasze wydarzenie na facebooku w razie zmian.',
+    answer: 'Formularz aplikacyjny pojawi się na naszym wydarzeniu na Facebooku w pierwszym tygodniu lutego.',
   },
   {
     question: 'Czy mogę zgłosić się bez drużyny?',
@@ -32,8 +32,8 @@ export default [
     answer: 'Jeśli jest coś ważnego, czego nie umieściłeś w swojej aplikacji, napisz do nas na Facebooku albo wyślij maila na adres hacknarok@eestec.pl.',
   },
   {
-    question: 'Co mam zabrać ze sobą na Hacknarök?',
-    answer: 'Jedyne co potrzebujesz to komputer, internet i zapas kawy. Wszystkie inne potrzebne rzeczy zapewnimy.',
+    question: 'Co mam przygotować na czas trwania wydarzenia?',
+    answer: 'Do wzięcia udział będzie potrzebny komputer, dostęp do internetu, konto na platformie Discord oraz dużo zapału do pracy.',
   },
   // {
   //   id: 12,
@@ -42,6 +42,6 @@ export default [
   // },
   {
     question: 'Co zrobić jeśli nie ma tu mojego pytania?',
-    answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres hacknarok@eestec.pl lub mateusz.piatkowski@eestec.pl. Z chęcią odpowiemy na Twoje pytania!',
+    answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres hacknarok@eestec.pl lub adrian.janakiewicz@eestec.pl. Z chęcią odpowiemy na Twoje pytania!',
   },
 ]

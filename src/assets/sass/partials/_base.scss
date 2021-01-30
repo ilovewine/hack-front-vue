@@ -1,5 +1,5 @@
 .primary-font {
-	font-family: 'Norse', sans-serif !important;
+	font-family: 'Noto Sans', sans-serif !important;
 }
 
 .secondary-font {
@@ -8,6 +8,10 @@
 
 .third-font {
 	font-family: 'Futhark', sans-serif !important;
+}
+
+.header-font {
+	font-family: 'Norse', sans-serif !important;
 }
 
 @each $color, $value in $colors {
