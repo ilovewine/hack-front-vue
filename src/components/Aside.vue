@@ -8,7 +8,7 @@
                 <b-navbar class="p-0 flex-fill d-flex flex-column align-items-stretch position-relative" toggleable="true" type="light" variant="faded">
                     <div class="py-3 horizontal flex-fill d-flex flex-column align-items-center bg-white min-vh-100 position-absolute" ref="collapse">
                         <b-navbar-brand class="m-0">
-                            <img alt="logo" class="img-fluid" src="@/assets/images/hackathon-logo3.png"/>
+                            <img alt="logo" class="img-fluid" src="@/assets/images/hackathon-logo5.png"/>
                         </b-navbar-brand>
 
                         <b-navbar-nav class="mt-4 font-weight-bold w-100">
@@ -29,19 +29,19 @@
         showCollapse: false,
         links: [
           {
-            name: 'start',
+            name: 'Start',
             href: 'main',
           },
           {
-            name: 'czas',
+            name: 'Czas',
             href: 'timer',
           },
           {
-            name: 'o projekcie',
+            name: 'O projekcie',
             href: 'about-project',
           },
           {
-            name: 'o nas',
+            name: 'O nas',
             href: 'about-us',
           },
           // {
@@ -49,15 +49,15 @@
           //   href: 'place',
           // },
           {
-            name: 'najczęściej zadawane pytania',
+            name: 'Najczęściej zadawane pytania',
             href: 'faq',
           },
           {
-            name: 'partnerzy',
+            name: 'Partnerzy',
             href: 'partners',
           },
           {
-            name: 'kontakt',
+            name: 'Kontakt',
             href: 'contact',
           },
         ],
@@ -124,6 +124,7 @@
             &:hover, &:focus {
                 background-color: transparent !important;
                 color: $secondary !important;
+                font-family: 'Norse', sans-serif;
             }
         }
     }

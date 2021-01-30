@@ -14,7 +14,7 @@
             </template>
         </b-modal>
         <b-col cols="12">
-            <h1 class="text-center my-4 my-sm-5 display-3">Partnerzy</h1>
+            <h1 class="text-center my-4 my-sm-5 display-3 header-font">Partnerzy</h1>
         </b-col>
         <b-col class="mx-auto" cols="11" lg="8" md="10">
             <b-row>
@@ -41,7 +41,7 @@
         <!--</b-col>-->
 
         <b-col cols="12">
-            <h1 class="text-center my-4 my-sm-5 display-3">Partnerzy medialni</h1>
+            <h1 class="text-center my-4 my-sm-5 display-3 header-font">Partnerzy medialni</h1>
         </b-col>
         <b-col class="mx-auto" cols="11" lg="8" md="10">
             <b-row class="justify-content-between">

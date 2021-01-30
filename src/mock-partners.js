@@ -6,28 +6,28 @@ export default {
   //   // text: `to jest tekst o sabre`,
   // },
   second: [
-    {
-      image: require('@/assets/images/partners/sabre.png'),
-      href: 'https://www.sabre.com/locations/poland/',
-      name: 'Sabre',
-    },
+    // {
+    //   image: require('@/assets/images/partners/sabre.png'),
+    //   href: 'https://www.sabre.com/locations/poland/',
+    //   name: 'Sabre',
+    // },
     {
       image: require('@/assets/images/partners/assa_abloy.jpg'),
       href: 'https://www.assaabloy.com/en/com/',
       name: 'assa abloy',
-//       text: `ASSA ABLOY is the global leader in door opening solutions and a market leader in most of Europe, North America, South America, China and Oceania. ASSA ABLOY was formed in 1994 through the merger of ASSA in Sweden and Abloy in Finland. Since then ASSA ABLOY has grown from a regional company to an international group with 47,500 employees and annual sales of SEK 76 billion.
-//
-// ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
-// `,
+      text: `ASSA ABLOY is the global leader in door opening solutions and a market leader in most of Europe, North America, South America, China and Oceania. ASSA ABLOY was formed in 1994 through the merger of ASSA in Sweden and Abloy in Finland. Since then ASSA ABLOY has grown from a regional company to an international group with 47,500 employees and annual sales of SEK 76 billion.
+
+ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
+`,
     },
     {
       image: require('@/assets/images/partners/hid.png'),
       href: 'https://www.hidglobal.com/',
       name: 'hid',
-//       text: `ASSA ABLOY is the global leader in door opening solutions and a market leader in most of Europe, North America, South America, China and Oceania. ASSA ABLOY was formed in 1994 through the merger of ASSA in Sweden and Abloy in Finland. Since then ASSA ABLOY has grown from a regional company to an international group with 47,500 employees and annual sales of SEK 76 billion.
-//
-// ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
-// `,
+      text: `ASSA ABLOY is the global leader in door opening solutions and a market leader in most of Europe, North America, South America, China and Oceania. ASSA ABLOY was formed in 1994 through the merger of ASSA in Sweden and Abloy in Finland. Since then ASSA ABLOY has grown from a regional company to an international group with 47,500 employees and annual sales of SEK 76 billion.
+
+ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
+`,
     },
 //     {
 //       image: require('@/assets/images/partners/dfs.png'),
@@ -46,11 +46,11 @@ export default {
       href: 'https://www.agh.edu.pl/',
       name: 'agh',
     },
-    {
-      image: require('@/assets/images/partners/kpt.jpg'),
-      href: 'http://www.kpt.krakow.pl/',
-      name: 'kpt',
-    },
+//     {
+//       image: require('@/assets/images/partners/kpt.jpg'),
+//       href: 'http://www.kpt.krakow.pl/',
+//       name: 'kpt',
+//     },
   ],
   third: [
 //     {
