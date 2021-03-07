@@ -47,7 +47,7 @@ ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most 
         },
         {
             image: require('@/assets/images/partners/Motorola.jpg'),
-            href: 'https://www.motorola.com/pl/',
+            href: 'https://www.motorola.com/pl/t',
             name: 'Motorola',
         },
 //     {

@@ -15,6 +15,12 @@ export default [
     name: 'polskieradio',
   },
   {
+    image: require('@/assets/images/partners/social-media/urss.png'),
+    href: 'https://samorzad.agh.edu.pl',
+    name: 'urss',
+  },
+
+  {
     image: require('@/assets/images/partners/social-media/justjoinit.png'),
     href: 'https://justjoin.it',
     name: 'justjoin',
@@ -38,11 +44,6 @@ export default [
     image: require('@/assets/images/partners/social-media/deva-group---sem-krk.png'),
     href: 'https://semkrk.pl',
     name: 'semkrk',
-  },
-  {
-    image: require('@/assets/images/partners/social-media/radio-1.7.png'),
-    href: 'https://radio17.pl',
-    name: 'radio17',
   },
   {
     image: require('@/assets/images/partners/social-media/startup-magazine.png'),
