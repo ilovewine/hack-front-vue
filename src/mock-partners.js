@@ -31,19 +31,13 @@ export default {
             image: require('@/assets/images/partners/assa_abloy.jpg'),
             href: 'https://www.assaabloy.com/en/com/',
             name: 'assa abloy',
-            text: `ASSA ABLOY is the global leader in door opening solutions and a market leader in most of Europe, North America, South America, China and Oceania. ASSA ABLOY was formed in 1994 through the merger of ASSA in Sweden and Abloy in Finland. Since then ASSA ABLOY has grown from a regional company to an international group with 47,500 employees and annual sales of SEK 76 billion.
-
-ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
-`,
+            text: "The ASSA ABLOY Group is the global leader in access solutions. The Group is operating worldwide with 48,000 employees and sales of SEK 88 billion. ASSA ABLOY’s innovations enable safe, secure and convenient access to physical and digital places. The Group has leading positions in areas such as efficient door openings, trusted identities and entrance automation. When you walk through an automatic door, stay in a hotel or authenticate your identity, then you’re probably using our products or services. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow: Group Technology Team and HID Global developing products, platforms and interfaces. In 2019 EMEA division joined with its Digital Access Solutions business.",
         },
         {
             image: require('@/assets/images/partners/hid.png'),
             href: 'https://www.hidglobal.com/',
             name: 'hid',
-            text: `ASSA ABLOY is the global leader in door opening solutions and a market leader in most of Europe, North America, South America, China and Oceania. ASSA ABLOY was formed in 1994 through the merger of ASSA in Sweden and Abloy in Finland. Since then ASSA ABLOY has grown from a regional company to an international group with 47,500 employees and annual sales of SEK 76 billion.
-
-ASSA ABLOY has been listed by Fortune Magazine as one of the world’s 100 most innovative companies. Using the latest technologies and tried-and-tested techniques we are constantly developing innovative solutions that improve our customers' lives through greater security, safety and convenience. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow that facilitate the development of products, platforms and interfaces: Shared Technologies and HID Global. In 2018, ASSA ABLOY opened Global Operations Center providing network, security and hosting services for internal customers.
-`,
+            text: "The ASSA ABLOY Group is the global leader in access solutions. The Group is operating worldwide with 48,000 employees and sales of SEK 88 billion. ASSA ABLOY’s innovations enable safe, secure and convenient access to physical and digital places. The Group has leading positions in areas such as efficient door openings, trusted identities and entrance automation. When you walk through an automatic door, stay in a hotel or authenticate your identity, then you’re probably using our products or services. Since the beginning, ASSA ABLOY has two R&D Centers in Krakow: Group Technology Team and HID Global developing products, platforms and interfaces. In 2019 EMEA division joined with its Digital Access Solutions business.",
         },
         {
             image: require('@/assets/images/partners/Motorola.jpg'),
