@@ -1,5 +1,5 @@
 <template>
-    <div :style="{backgroundImage: `url(${isWinter ? require('@/assets/images/mountains.jpg') : require('@/assets/images/fiord.png')})`}" class="background d-flex flex-column position-relative">
+    <div :style="{backgroundImage: `url(${isWinter ? require('@/assets/images/mountains.jpg') : require('@/assets/images/sea.png')})`}" class="background d-flex flex-column position-relative">
         <Snowf v-bind="snowConf" v-if="isWinter" />
 <!--        <b-row class="justify-content-center align-items-center flex-fill" no-gutters>-->
 <!--            <b-col class="mx-auto" cols="10" lg="12" md="8">-->
