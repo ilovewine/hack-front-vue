@@ -1,7 +1,7 @@
 language: node_js
 os: linux
 dist: xenial
-node_js: 13
+node_js: 12
 script: npm run build
 before_deploy: ./iac/before_deploy.sh
 deploy:
