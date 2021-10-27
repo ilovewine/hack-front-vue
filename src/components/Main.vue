@@ -5,6 +5,7 @@
             <b-col class="mx-auto" cols="10" lg="12" md="8">
                 <div class="d-flex flex-column align-items-center">
                     <img :src="require('@/assets/images/header-logo5.png')" alt="Hacknarök" class="img-fluid"/>
+
 <!--                    <h1 class="text-white text-center mt-4 primary-font">Online<br/>27-28 marca</h1>-->
                   <b-button :href="applicationForm" class="apply hack5-application" target="_blank">APLIKUJ</b-button>
 
