@@ -35,11 +35,6 @@ export default [
     question: 'Co mam przygotować na czas trwania wydarzenia?',
     answer: 'Do wzięcia udział będzie potrzebny komputer, dostęp do internetu, konto na platformie Discord oraz dużo zapału do pracy.',
   },
-  // {
-  //   id: 12,
-  //   question: 'Co jeśli będę chciał przez chwilę odpocząć od projektu?',
-  //   answer: 'Rozumiemy, że praca przez 24h bez przerwy nie jest łatwa. Dlatego, przez cały czas trwania konkursu będziecie mieli do dyspozycji Gaming Room z konsolami i planszówkami, Chillout Room z pufami oraz sofy w holu, gdzie będziecie mogli się zrelaksować.',
-  // },
   {
     question: 'Co zrobić jeśli nie ma tu mojego pytania?',
     answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres hacknarok@eestec.pl lub adrian.janakiewicz@eestec.pl. Z chęcią odpowiemy na Twoje pytania!',

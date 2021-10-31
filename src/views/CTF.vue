@@ -1,6 +1,7 @@
 <template>
   <main class="d-flex">
-    <b-container fluid class="background flex-fill" :style="{backgroundImage: `url(${require('@/assets/images/sea.png')})`}">
+    <b-container fluid class="background flex-fill"
+                 :style="{backgroundImage: `url(${require('@/assets/images/sea.png')})`}">
       <b-row>
         <b-col cols="10" offset="1">
           <router-view/>
@@ -12,12 +13,12 @@
 
 <script>
 export default {
-name: "CTF"
+  name: "CTF"
 }
 </script>
 
 <style scoped lang="scss">
-  .background {
-    @include background();
-  }
+.background {
+  @include background();
+}
 </style>
