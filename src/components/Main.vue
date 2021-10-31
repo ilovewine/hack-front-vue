@@ -12,6 +12,7 @@
           <b-button :href="applicationForm" class="apply hack5-application" target="_blank">
             APLIKUJ
           </b-button>
+
         </div>
       </b-col>
     </b-row>

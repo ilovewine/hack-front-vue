@@ -5,7 +5,7 @@ export default {
       image: require('@/assets/images/partners/IBM.jpg'),
       href: 'https://www.ibm.com/pl-pl',
       name: 'IBM',
-    }
+    },
   ],
   third: [
     {
@@ -49,6 +49,6 @@ export default {
       image: require('@/assets/images/partners/agh.jpg'),
       href: 'https://www.agh.edu.pl/',
       name: 'agh',
-    }
-  ]
+    },
+  ],
 }
