@@ -39,13 +39,6 @@
                 <Partner :key="index" :partner="partner" @choose-partner="choosePartner($event)" v-for="(partner, index) in partners.third"/>
             </b-row>
         </b-col>
-
-        <!--<b-col class="mx-auto" cols="11" lg="8" md="10">-->
-        <!--<b-row>-->
-        <!--<Partner :key="index" :partner="partner" v-for="(partner, index) in partners.rest"/>-->
-        <!--</b-row>-->
-        <!--</b-col>-->
-
         <b-col cols="12">
             <h1 class="text-center my-4 my-sm-5 display-3 header-font">Partnerzy medialni</h1>
         </b-col>
@@ -63,8 +56,8 @@
 
 <script>
   import Partner from './Partner'
-  import PARTNERS from '../mock-partners'
-  import PARTNERS_SOCIAL from '../mock-partners-social'
+  import PARTNERS from '../data/partners'
+  import PARTNERS_SOCIAL from '../data/partners-social'
 
   export default {
     name: 'Partners',

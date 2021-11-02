@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  import FAQ from '../mock-faq'
+  import FAQ from '../data/faq'
 
   export default {
     name: 'FAQ',

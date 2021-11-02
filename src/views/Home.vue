@@ -1,20 +1,20 @@
 <template>
   <div>
     <header>
-      <Aside />
+      <Aside/>
     </header>
     <main>
-      <Main id="main" />
-      <Timer id="timer" />
-      <AboutProject id="about-project" />
-      <Gallery id="gallery" />
-      <AboutUs id="about-us" />
-<!--      <Place id="place" />-->
-      <FAQ id="faq" />
-      <Partners id="partners" />
+      <Main id="main"/>
+      <Timer id="timer"/>
+      <AboutProject id="about-project"/>
+      <Gallery id="gallery"/>
+      <AboutUs id="about-us"/>
+      <!--      <Place id="place" />-->
+      <FAQ id="faq"/>
+      <Partners id="partners"/>
     </main>
     <footer>
-      <Contact id="contact" />
+      <Contact id="contact"/>
     </footer>
   </div>
 </template>
