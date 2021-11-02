@@ -1,4 +1,6 @@
-# hack-front-vue
+# eestec-website-hack-frontend
+
+This repository is responsible for delivering the frontend & content of https://hacknarok.eestec.pl website. 
 
 ## Project setup
 ```
@@ -30,6 +32,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Travis CI/CD
 
-Repository dashboard - https://travis-ci.org/github/EESTEC-AGH-Krakow/eestec-website-hack-frontend
+Getting started - https://docs.travis-ci.com/user/for-beginners/
+
+Repository dashboard - https://app.travis-ci.com/github/EESTEC-AGH-Krakow/eestec-website-hack-frontend
 
 [GUIDE] How to make deployment with encrypted ssh keys - https://github.com/dwyl/learn-travis/blob/master/encrypted-ssh-keys-deployment.md
