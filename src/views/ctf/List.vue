@@ -10,13 +10,15 @@
         <b-button v-b-toggle.collapse-rules>Zasady</b-button>
         <b-collapse id="collapse-rules">
           <b-list-group class="m-1">
-            <b-list-group-item v-for="(rule, id) in rules" :key="id" class="py-1 small secondary-font">{{ rule }}
+            <b-list-group-item v-for="(rule, id) in rules" :key="id"
+                               class="py-1 small secondary-font">{{ rule }}
             </b-list-group-item>
           </b-list-group>
         </b-collapse>
       </b-col>
       <b-col v-for="(puzzle, id) in puzzles" :key="id" cols="12" md="4" lg="3" class="mb-3">
-        <b-link :href="puzzle.link" class="d-flex justify-content-center align-items-center border border-light">
+        <b-link :href="puzzle.link"
+                class="d-flex justify-content-center align-items-center border border-light">
           <h4 class="text-white my-3">{{ puzzle.name }}</h4>
         </b-link>
       </b-col>
