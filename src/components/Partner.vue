@@ -8,6 +8,21 @@
     <b-link :href="partner.href" class="flex-fill d-flex align-items-center" target="_blank" v-else>
       <img :alt="partner.name" :src="partner.image" class="img-fluid mx-auto"/>
     </b-link>
+
+
+    <template v-if="partner.description !== ''">
+      <b-button v-b-modal.modal-partner
+                variant="none"
+                class="partner"
+                @click="changePartner(partner)"
+      >
+        <img class="img-fluid" :src="partner.image" :alt="partner.name">
+      </b-button>
+    </template>
+    <template v-else>
+      <img class="img-fluid" :src="partner.image" :alt="partner.name">
+    </template>
+
   </b-col>
 </template>
 

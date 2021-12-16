@@ -4,7 +4,7 @@
       <h1 class="text-center mt-5 display-4 header-font">Do końca świata zostało:</h1>
     </b-col>
     <b-col class="mt-3" cols="12">
-      <FlipCountdown deadline="2021-03-27 10:00:00" :labels="labels" class="timer"></FlipCountdown>
+      <FlipCountdown deadline="2022-04-02 10:00:00" :labels="labels" class="timer"></FlipCountdown>
     </b-col>
   </b-row>
 </template>

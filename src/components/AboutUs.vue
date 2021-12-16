@@ -11,15 +11,15 @@
       </p>
       <span>Za tegoroczną edycją wydarzenia Hacknarök stoją odważni wikingowie na czele z:</span>
       <ul class="list-unstyled mb-4 mb-sm-5">
-        <li><span class="font-weight-bold">Marcin Kozak</span> - Koordynator Główny</li>
-        <li><span class="font-weight-bold">Katarzyna Więcław</span> - Koordynator ds. Pozyskiwania
+        <li><span class="font-weight-bold">Paweł Potaczała</span> - Koordynator Główny</li>
+        <li><span class="font-weight-bold">Anna Pietrzyńska</span> - Koordynator ds. Pozyskiwania
           Funduszy
         </li>
-        <li><span class="font-weight-bold">Wioletta Podraza</span> - Koordynator ds. Promocji</li>
-        <li><span class="font-weight-bold">Radosław Bielak</span> - Koordynator ds. Logistyki i
+        <li><span class="font-weight-bold">Karolina Jaśnikowska</span> - Koordynator ds. Promocji</li>
+        <li><span class="font-weight-bold">Kamil Pytel</span> - Koordynator ds. Logistyki i
           Barteru
         </li>
-        <li><span class="font-weight-bold">Adrian Janakiewicz</span> - Koordynator ds. Kontaktu z
+        <li><span class="font-weight-bold">Filip Pilarek</span> - Koordynator ds. Kontaktu z
           Uczestnikami i Administracji
         </li>
       </ul>
