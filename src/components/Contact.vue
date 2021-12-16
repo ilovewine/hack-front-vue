@@ -6,10 +6,10 @@
     <b-col class="mx-auto" cols="11" lg="8" md="10">
       <b-row>
         <b-col class="d-flex" cols="12" sm="6">
-          <b-link class="text-white d-flex align-items-center" href="mailto:hacknarok@eestec.pl"
+          <b-link class="text-white d-flex align-items-center" href="mailto:kontakt@hacknarok.pl"
                   target="_blank">
             <font-awesome-icon icon="envelope"></font-awesome-icon>
-            <span class="font-weight-bold ml-2">hacknarok@eestec.pl</span>
+            <span class="font-weight-bold ml-2">kontakt@hacknarok.pl</span>
           </b-link>
         </b-col>
         <b-col class="d-flex mt-2 mt-sm-0" cols="12" sm="6">
@@ -22,10 +22,10 @@
       </b-row>
       <b-row class="mt-sm-4 my-4">
         <b-col class="d-flex mt-2 mt-sm-0" cols="12" sm="6">
-          <b-link :href="`${publicPath}regulamin.pdf`" class="text-white d-flex align-items-end"
-                  target="_blank">
-            <span class="font-weight-bold">Regulamin</span>
-          </b-link>
+<!--          <b-link :href="`${publicPath}regulamin.pdf`" class="text-white d-flex align-items-end"-->
+<!--                  target="_blank">-->
+<!--            <span class="font-weight-bold">Regulamin</span>-->
+<!--          </b-link>-->
         </b-col>
         <b-col class="d-flex align-items-end mt-2 mt-sm-0" cols="12" sm="6">
           <span class="font-weight-bold ml-sm-auto">EESTEC AGH Kraków</span>
