@@ -5,7 +5,7 @@
     </b-col>
     <b-col class="mx-auto" cols="11" lg="8" md="10">
       <p class="text-justify mb-4 mb-sm-5">
-        To już piąta edycja hackathonu, którego nazwa bezpośrednio nawiązuje do Ragnaröku
+        To już szósta edycja hackathonu, którego nazwa bezpośrednio nawiązuje do Ragnaröku
         - wielkiej bitwy pomiędzy bogami a olbrzymami, w wyniku której siedzibę bogów trawi ogień,
         gwiazdy gasną, a z toni wyłania się nowy świat bez przemocy i wojen.
       </p>
