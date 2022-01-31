@@ -1,6 +1,6 @@
 # eestec-website-hack-frontend
 
-This repository is responsible for delivering the frontend & content of https://hacknarok.eestec.pl website. 
+This repository is responsible for delivering the frontend & content of https://hacknarok.pl website. 
 
 ## Project setup
 ```
