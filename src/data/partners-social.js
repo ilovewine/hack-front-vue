@@ -51,12 +51,12 @@ export default [
   //   name: 'podprad',
   //   description: '',
   // },
-  // {
-  //   image: require('@/assets/images/partners/social-media/dla-studenta.png'),
-  //   href: 'https://www.dlastudenta.pl',
-  //   name: 'dlastudenta',
-  //   description: '',
-  // },
+  {
+    image: require('@/assets/images/partners/social-media/dla-studenta.png'),
+    href: 'https://www.dlastudenta.pl',
+    name: 'dlastudenta',
+    description: '',
+  },
   // {
   //   image: require('@/assets/images/partners/social-media/deva-group.png'),
   //   href: 'https://www.devagroup.pl',
@@ -81,11 +81,12 @@ export default [
   //   name: 'colorfulmedia',
   //   description: '',
   // },
-  // {
-  //   image: require('@/assets/images/partners/social-media/studentnews.png'),
-  //   href: 'https://www.studentnews.pl',
-  //   name: 'studentnews',
-  // },
+  {
+    image: require('@/assets/images/partners/social-media/studentnews.png'),
+    href: 'https://www.studentnews.pl',
+    name: 'studentnews',
+    description: '',
+  },
   // {
   //   image: require('@/assets/images/partners/social-media/challeng-rocket-com.png'),
   //   href: 'https://challengerocket.com',

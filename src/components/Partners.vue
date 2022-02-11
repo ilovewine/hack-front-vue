@@ -67,11 +67,10 @@
                   </b-button>
                 </template>
                 <template v-else>
-                  <img class="img-fluid" :src="partner.image" :alt="partner.name">
+                  <a :href="partner.href" target="_blank">
+                    <img class="img-fluid mx-auto" :src="partner.image" :alt="partner.name">
+                  </a>
                 </template>
-<!--                  <b-link :href="partner.href" target="_blank" class="flex-fill d-flex align-items-center">-->
-<!--                      <img :alt="partner.name" :src="partner.image" class="img-fluid mx-auto"/>-->
-<!--                  </b-link>-->
               </b-col>
           </b-row>
         </b-col>
@@ -79,7 +78,6 @@
 </template>
 
 <script>
-  import Partner from './Partner'
   import PARTNERS from '../data/partners'
   import PARTNERS_SOCIAL from '../data/partners-social'
 
@@ -96,9 +94,6 @@
           description: '',
         },
       }
-    },
-    components: {
-      Partner,
     },
     methods: {
       choosePartner (partner) {
