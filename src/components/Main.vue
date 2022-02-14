@@ -8,11 +8,9 @@
         <div class="d-flex flex-column align-items-center">
           <img :src="require('@/assets/images/header-logo6.png')" alt="Hacknarök"
                class="img-fluid"/>
-<!--          <h1 class="text-white text-center mt-4 primary-font">Online<br/>27-28 marca</h1>-->
-<!--          <b-button :href="applicationForm" class="apply hack5-application" target="_blank">-->
-<!--            APLIKUJ-->
-<!--          </b-button>-->
-
+          <b-button :href="applicationForm" class="apply hack5-application" target="_blank">
+            APLIKUJ
+          </b-button>
         </div>
       </b-col>
     </b-row>
@@ -31,7 +29,7 @@ export default {
   name: 'Main',
   data() {
     return {
-      applicationForm: 'https://forms.gle/zuQcJU13wi1Mu3kD9',
+      applicationForm: 'https://forms.gle/yKeBahooNJ3vw4o39',
       snowConf: {
         amount: 150,
         size: 7,
