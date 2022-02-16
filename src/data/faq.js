@@ -17,11 +17,11 @@ export default [
   },
   {
     question: 'Jak mam zgłosić chęć wzięcia udziału w Hacknaröku?',
-    answer: 'Formularz aplikacyjny pojawi się na naszym wydarzeniu na Facebooku w pierwszym tygodniu lutego.',
+    answer: 'Formularz aplikacyjny pojawi się na naszym wydarzeniu na Facebooku oraz na stronie internetowej już niedługo.',
   },
   {
     question: 'Czy mogę zgłosić się bez drużyny?',
-    answer: 'Przykro nam, ale Hacknarök to konkurs drużynowy. Jeśli nie masz pomysłu na to, z kim mógłbyś stworzyć swój wymarzony zespół, śledź nasze wydarzenie na Facebooku!',
+    answer: 'Przykro nam, ale Hacknarök to konkurs drużynowy. Musisz posiadać drużynę by wziąć udział.',
   },
   {
     question: 'Ile osób może być w drużynie?',
@@ -29,14 +29,14 @@ export default [
   },
   {
     question: 'Jak mogę edytować swój formularz zgłoszeniowy?',
-    answer: 'Jeśli jest coś ważnego, czego nie umieściłeś w swojej aplikacji, napisz do nas na Facebooku albo wyślij maila na adres hacknarok@eestec.pl.',
+    answer: 'Jeśli jest coś ważnego, czego nie umieściłeś w swojej aplikacji, napisz do nas na Facebooku albo wyślij maila na adres kontakt@hacknarok.pl.',
   },
   {
     question: 'Co mam przygotować na czas trwania wydarzenia?',
-    answer: 'Do wzięcia udział będzie potrzebny komputer, dostęp do internetu, konto na platformie Discord oraz dużo zapału do pracy.',
+    answer: 'Do wzięcia udziału będzie potrzebny komputer, konto na platformie Discord oraz dużo zapału do pracy.',
   },
   {
     question: 'Co zrobić jeśli nie ma tu mojego pytania?',
-    answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres hacknarok@eestec.pl lub adrian.janakiewicz@eestec.pl. Z chęcią odpowiemy na Twoje pytania!',
+    answer: 'Możesz do nas napisać na Facebooku albo wysłać maila na adres kontakt@hacknarok.pl. Z chęcią odpowiemy na Twoje pytania!',
   },
 ]
