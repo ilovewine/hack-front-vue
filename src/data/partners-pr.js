@@ -39,4 +39,9 @@ export default [
     href: 'https://krakow.pl',
     name: 'Miasto Kraków',
   },
+  {
+    image: require('@/assets/images/partners/pr/urss.jpg'),
+    href: 'https://samorzad.agh.edu.pl/',
+    name: 'Uczelnianej Rady Samorządu Studentów',
+  },
 ]

@@ -6,6 +6,36 @@ export default {
   },
   normal: [
     {
+      image: require('@/assets/images/partners/fr/assaabloy.jpg'),
+      href: 'https://www.assaabloy.com/en/com/',
+      name: 'assa abloy',
+    },
+    {
+      image: require('@/assets/images/partners/fr/hid.png'),
+      href: 'https://www.hidglobal.com/',
+      name: 'hid',
+    },
+    {
+      image: require('@/assets/images/partners/fr/avsystem.jpg'),
+      href: 'https://avsystem.com',
+      name: 'avsystem',
+    },
+    {
+      image: require('@/assets/images/partners/fr/kpt.jpg'),
+      href: 'https://www.kpt.krakow.pl',
+      name: 'Krakowski Park Technologiczny',
+    },
+    {
+      image: require('@/assets/images/partners/fr/agh.jpg'),
+      href: 'https://agh.edu.pl',
+      name: 'agh',
+    },
+    {
+      image: require('@/assets/images/partners/fr/abb.png'),
+      href: 'https://new.abb.com/pl',
+      name: 'abb',
+    },
+    {
       image: require('@/assets/images/partners/fr/sabre.png'),
       href: 'https://sabre.com/locations/poland',
       name: 'Sabre',
@@ -14,16 +44,6 @@ export default {
       image: require('@/assets/images/partners/fr/motorola.jpg'),
       href: 'https://motorola.com/pl/t',
       name: 'Motorola',
-    },
-    {
-      image: require('@/assets/images/partners/fr/miastokrakow.jpg'),
-      href: 'https://krakow.pl',
-      name: 'Miasto Kraków',
-    },
-    {
-      image: require('@/assets/images/partners/fr/kpt.jpg'),
-      href: 'https://www.kpt.krakow.pl',
-      name: 'Krakowski Park Technologiczny',
     },
     {
       image: require('@/assets/images/partners/fr/google.jpg'),
@@ -36,34 +56,14 @@ export default {
       name: 'Codewise',
     },
     {
-      image: require('@/assets/images/partners/fr/avsystem.jpg'),
-      href: 'https://avsystem.com',
-      name: 'avsystem',
-    },
-    {
-      image: require('@/assets/images/partners/fr/assaabloy.jpg'),
-      href: 'https://www.assaabloy.com/en/com/',
-      name: 'assa abloy',
-    },
-    {
-      image: require('@/assets/images/partners/fr/hid.png'),
-      href: 'https://www.hidglobal.com/',
-      name: 'hid',
-    },
-    {
       image: require('@/assets/images/partners/fr/allegro.png'),
       href: 'https://allegro.tech',
       name: 'Allegro',
     },
     {
-      image: require('@/assets/images/partners/fr/abb.png'),
-      href: 'https://allegro.tech',
-      name: 'abb',
-    },
-    {
-      image: require('@/assets/images/partners/fr/agh.jpg'),
-      href: 'https://agh.edu.pl',
-      name: 'agh',
+      image: require('@/assets/images/partners/fr/miastokrakow.jpg'),
+      href: 'https://krakow.pl',
+      name: 'Miasto Kraków',
     },
   ]
 }
