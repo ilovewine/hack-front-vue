@@ -1,29 +1,17 @@
 <template>
-  <div
-      :style="{backgroundImage: `url(${isWinter ? require('@/assets/images/fiord.png') : require('@/assets/images/fiord.png')})`}"
+  <div :style="{backgroundImage: `url(${require('@/assets/images/header-background.png')})`}"
       class="background d-flex flex-column position-relative">
-<!--    <Snowf v-bind="snowConf" v-if="isWinter"/>-->
-    <b-row class="justify-content-center align-items-center flex-fill" no-gutters>
-      <b-col class="mx-auto" cols="10" lg="12" md="8">
-        <div class="d-flex flex-column align-items-center">
-          <img :src="require('@/assets/images/header-logo6.png')" alt="Hacknarök"
-               class="img-fluid"/>
-          <b-button :href="applicationForm" class="apply hack5-application" target="_blank">
-            APLIKUJ
-          </b-button>
-        </div>
+    <Snowf v-bind="snowConf" v-if="isWinter"/>
+    <b-row class="justify-content-center align-items-end position-absolute" no-gutters>
+      <b-col class="mb-2 mb-lg-5 d-flex justify-content-center" cols="12">
+        <b-button :href="applicationForm" class="apply" target="_blank">APLIKUJ</b-button>
       </b-col>
     </b-row>
-<!--    <b-row class="justify-content-center align-items-end position-absolute" no-gutters>-->
-<!--      <b-col class="mb-2 mb-lg-5 d-flex justify-content-center" cols="12">-->
-<!--        <b-button :href="applicationForm" class="apply" target="_blank">APLIKUJ</b-button>-->
-<!--      </b-col>-->
-<!--    </b-row>-->
   </div>
 </template>
 
 <script>
-// import Snowf from 'vue-snowf'
+import Snowf from 'vue-snowf'
 
 export default {
   name: 'Main',
@@ -37,18 +25,11 @@ export default {
         wind: 2,
         opacity: 0.6
       },
-      // runes: {
-      //   algiz: require('@/assets/icons/runes/png/algiz.png'),
-      //   mannaz: require('@/assets/icons/runes/png/mannaz.png'),
-      //   thurisaz: require('@/assets/icons/runes/png/thurisaz.png'),
-      //   tiwaz: require('@/assets/icons/runes/png/tiwaz.png'),
-      //   raido: require('@/assets/icons/runes/png/raido.png'),
-      // }
     }
   },
-  // components: {
-  //   Snowf,
-  // },
+  components: {
+    Snowf,
+  },
   computed: {
     applicable() {
       return new Date(2020, 1, 17) <= Date.now() && new Date(2020, 2, 3) >= Date.now()
