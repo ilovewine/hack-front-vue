@@ -64,7 +64,7 @@ export default {
       center: [50.0211894, 19.8862796046309],
       placeMarker: [50.0211894, 19.8862796046309],
       busArray: [11, 17, 18, 52, 116, 194, 203, 204, 213, 223, 253, 263, 283],
-      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+      url: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
     }
   },
   methods: {

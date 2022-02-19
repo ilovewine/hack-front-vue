@@ -15,7 +15,7 @@
               class="py-3 horizontal flex-fill d-flex flex-column align-items-center bg-white min-vh-100 position-absolute"
               ref="collapse">
             <b-navbar-brand class="m-0">
-              <img alt="logo" class="img-fluid" src="@/assets/images/hackathon-logo6.png"/>
+              <img alt="logo" class="img-fluid" src="@/assets/images/hackathon-logo.png"/>
             </b-navbar-brand>
 
             <b-navbar-nav class="mt-4 font-weight-bold w-100">
@@ -53,10 +53,10 @@ export default {
           name: 'O nas',
           href: 'about-us',
         },
-        // {
-        //   name: 'jak dojechać',
-        //   href: 'place',
-        // },
+        {
+          name: 'jak dojechać',
+          href: 'place',
+        },
         {
           name: 'Najczęściej zadawane pytania',
           href: 'faq',
