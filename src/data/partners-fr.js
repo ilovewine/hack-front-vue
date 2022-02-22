@@ -56,7 +56,7 @@ export default {
       name: 'Codewise',
     },
     {
-      image: require('@/assets/images/partners/fr/allegro.png'),
+      image: require('@/assets/images/partners/fr/allegro.jpg'),
       href: 'https://allegro.tech',
       name: 'Allegro',
     },
