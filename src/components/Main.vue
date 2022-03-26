@@ -4,7 +4,7 @@
     <Snowf v-bind="snowConf" v-if="isWinter"/>
     <b-row class="justify-content-center align-items-end position-absolute" no-gutters>
       <b-col class="mb-2 mb-lg-5 d-flex justify-content-center" cols="12">
-        <b-button :href="applicationForm" class="apply" target="_blank">APLIKUJ</b-button>
+        <b-button :href="applicationForm" class="apply" target="_blank" disabled>KONIEC ZAPISÓW</b-button>
       </b-col>
     </b-row>
   </div>

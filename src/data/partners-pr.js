@@ -44,4 +44,14 @@ export default [
     href: 'https://samorzad.agh.edu.pl/',
     name: 'Uczelnianej Rady Samorządu Studentów',
   },
+  {
+    image: require('@/assets/images/partners/pr/teatrslowackiego.png'),
+    href: 'https://teatrwkrakowie.pl/',
+    name: 'Teatr im. Juliusza Słowackiego',
+  },
+  {
+    image: require('@/assets/images/partners/pr/ksaf.png'),
+    href: 'https://ksaf.pl/',
+    name: 'Krakowska Studencka Agencja Fotograficzna AGH',
+  },
 ]
