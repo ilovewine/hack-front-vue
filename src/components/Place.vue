@@ -63,7 +63,7 @@ export default {
       zoom: 15,
       center: [50.0211894, 19.8862796046309],
       placeMarker: [50.0211894, 19.8862796046309],
-      busArray: [11, 17, 18, 52, 116, 194, 203, 204, 213, 223, 253, 263, 283],
+      busArray: [11, 17, 18, 52, 62, 662, 116, 156, 203, 204, 213, 223, 253, 263, 283, 578, 903], // check here -> https://ztp.krakow.pl/transport-publiczny/komunikacja-miejska/mapy-i-schematy-kmk
       url: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
     }
   },
