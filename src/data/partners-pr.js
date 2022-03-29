@@ -53,5 +53,5 @@ export default [
     image: require('@/assets/images/partners/pr/ksaf.png'),
     href: 'https://ksaf.pl/',
     name: 'Krakowska Studencka Agencja Fotograficzna AGH',
-  },
+  }
 ]

@@ -61,9 +61,19 @@ export default {
       name: 'Allegro',
     },
     {
+      image: require('@/assets/images/partners/fr/ibm.png'),
+      href: 'https://www.ibm.com/pl-pl',
+      name: 'IBM',
+    },
+    {
+      image: require('@/assets/images/partners/pr/uxberries.png'),
+      href: 'https://www.facebook.com/ITberries',
+      name: 'ITberries',
+    },
+    {
       image: require('@/assets/images/partners/fr/miastokrakow.jpg'),
       href: 'https://krakow.pl',
       name: 'Miasto Kraków',
-    },
+    }
   ]
 }
