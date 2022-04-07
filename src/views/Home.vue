@@ -9,6 +9,7 @@
       <AboutProject id="about-project"/>
       <Gallery id="gallery"/>
       <AboutUs id="about-us"/>
+      <PreviousEditions id="previous-editions"/>
       <Place id="place" />
       <FAQ id="faq"/>
       <Partners id="partners"/>
@@ -26,6 +27,7 @@ import Contact from "../components/Contact";
 import AboutProject from "../components/AboutProject";
 import Gallery from "../components/Gallery";
 import AboutUs from "../components/AboutUs";
+import PreviousEditions from "../components/PreviousEditions";
 import FAQ from "../components/FAQ";
 import Partners from "../components/Partners";
 import Place from "../components/Place";
@@ -38,6 +40,7 @@ export default {
     AboutProject,
     Gallery,
     AboutUs,
+    PreviousEditions,
     Place,
     FAQ,
     Aside,
