@@ -2,13 +2,14 @@
 
 This repository is responsible for delivering the frontend & content of https://hacknarok.pl website. 
 
-## Project setup
-
-!M1 MAC ONLY!
+## !M1 MAC ONLY!
 This command is also needed for it to fork on arm m1 chip due to node 14 incompatibility.
 ```
 arch -x86_64 zsh
 ```
+
+## Project setup
+
 ```
 npm install
 ```
