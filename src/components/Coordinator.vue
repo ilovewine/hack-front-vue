@@ -1,7 +1,7 @@
 <template>
   <b-col xl="2" lg="4">
     <img :src="coordinator.image" class="rounded-circle mb-4 img-fluid">
-    <p class="primary-font">{{coordinator.name}}</p>
+    <p class="primary-font" style="white-space: pre;" >{{coordinator.name}}</p>
     <span class="font-weight-bold secondary-font">{{coordinator.title}}</span>
   </b-col>
 </template>
