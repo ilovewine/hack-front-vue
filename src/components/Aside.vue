@@ -54,7 +54,7 @@ export default {
           href: 'about-us',
         },
         {
-          name: 'jak dojechać',
+          name: 'Jak dojechać',
           href: 'place',
         },
         {
