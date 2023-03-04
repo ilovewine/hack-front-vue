@@ -1,79 +1,64 @@
 export default {
-  main: {
-    image: require('@/assets/images/partners/fr/dfs.png'),
-    href: 'https://doverfuelingsolutions.com',
-    name: 'Dover Fueling Solutions',
-  },
   normal: [
     {
-      image: require('@/assets/images/partners/fr/assaabloy.jpg'),
-      href: 'https://www.assaabloy.com/en/com/',
-      name: 'assa abloy',
+      image: require('@/assets/images/partners/fr/hid.jpg'),
+      // href: 'https://www.assaabloy.com/en/com/',
+      name: 'assa abloy and hid',
     },
     {
-      image: require('@/assets/images/partners/fr/hid.png'),
-      href: 'https://www.hidglobal.com/',
-      name: 'hid',
-    },
-    {
-      image: require('@/assets/images/partners/fr/avsystem.jpg'),
-      href: 'https://avsystem.com',
-      name: 'avsystem',
+      image: require('@/assets/images/partners/fr/Capgemini.png'),
+      // href: 'https://avsystem.com',
+      name: 'Capagemini',
     },
     {
       image: require('@/assets/images/partners/fr/kpt.jpg'),
-      href: 'https://www.kpt.krakow.pl',
+      // href: 'https://www.kpt.krakow.pl',
       name: 'Krakowski Park Technologiczny',
     },
     {
-      image: require('@/assets/images/partners/fr/agh.jpg'),
-      href: 'https://agh.edu.pl',
-      name: 'agh',
-    },
-    {
-      image: require('@/assets/images/partners/fr/abb.png'),
-      href: 'https://new.abb.com/pl',
-      name: 'abb',
+      image: require('@/assets/images/partners/fr/DD.png'),
+      // href: 'https://agh.edu.pl',
+      name: 'DD',
     },
     {
       image: require('@/assets/images/partners/fr/sabre.png'),
-      href: 'https://sabre.com/locations/poland',
+      // href: 'https://sabre.com/locations/poland',
       name: 'Sabre',
     },
     {
-      image: require('@/assets/images/partners/fr/motorola.jpg'),
-      href: 'https://motorola.com/pl/t',
-      name: 'Motorola',
+      image: require('@/assets/images/partners/fr/GE.png'),
+      // href: 'https://motorola.com/pl/t',
+      name: 'GE',
     },
     {
-      image: require('@/assets/images/partners/fr/google.jpg'),
-      href: 'https://about.google',
-      name: 'Google',
-    },
-    {
-      image: require('@/assets/images/partners/fr/codewise.jpg'),
-      href: 'https://codewise.com',
-      name: 'Codewise',
+      image: require('@/assets/images/partners/fr/Hitachi.jpg'),
+      // href: 'https://about.google',
+      name: 'Hitachi',
     },
     {
       image: require('@/assets/images/partners/fr/allegro.jpg'),
-      href: 'https://allegro.tech',
+      // href: 'https://allegro.tech',
       name: 'Allegro',
     },
     {
-      image: require('@/assets/images/partners/fr/ibm.png'),
-      href: 'https://www.ibm.com/pl-pl',
-      name: 'IBM',
+      image: require('@/assets/images/partners/fr/IG.jpg'),
+      // href: 'https://www.ibm.com/pl-pl',
+      name: 'IG',
     },
     {
-      image: require('@/assets/images/partners/pr/uxberries.png'),
-      href: 'https://www.facebook.com/ITberries',
-      name: 'ITberries',
+      image: require('@/assets/images/partners/fr/PGA.jpg'),
+      // href: 'https://www.facebook.com/ITberries',
+      name: 'PGA',
     },
     {
       image: require('@/assets/images/partners/fr/miastokrakow.jpg'),
-      href: 'https://krakow.pl',
+      // href: 'https://krakow.pl',
       name: 'Miasto Kraków',
+    },
+    {
+      image: require('@/assets/images/partners/fr/Remitly.png'),
+      // href: 'https://krakow.pl',
+      name: 'Remitly',
     }
   ]
 }
