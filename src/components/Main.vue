@@ -29,7 +29,7 @@ export default {
     }
   },
   components: {
-    Snowf,
+    // Snowf,
   },
   computed: {
     applicable() {
