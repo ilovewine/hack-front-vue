@@ -17,6 +17,11 @@
         było o co walczyć, a obecni podczas wydarzenia mentorzy będą gotowi znaleźć wyjaśnienie na
         każdą wątpliwość. 
       </p>
+      <h4 class="header-font">Tegoroczne kategorie</h4>
+      <p class="text-justify mb-4 mb-sm-5">
+        Odyn nie oszczędził nas również w tym roku i jak w poprzednim zesłał nam dwie kategorie, w których wikingowie będą mogli sprawdzić swoje umiejętności!
+        Pierwszą z nich jest Mobile App Development, realizowana w ramach Międzynarodowego Hackathonu EESTech Challenge, dzielni wojownicy tej kategorii staną do walki w 3 osobowych zespołach! Drugą zaś będzie Game Jam. Drużyny składające się od 3 do 4 śmiałków i przygotują grę na miano mistrzów Hacknaröka! 
+      </p>
 <!--      <p class="text-justify mb-4 mb-sm-5">-->
 <!--        Zapisy trwają od 17 lutego do 2 marca, w razie jakichkolwiek pytań zapraszamy na stronę-->
 <!--        wydarzenia lub do kontaktu mailowego. Widzimy się już 21 marca w Krakowskim Parku-->
