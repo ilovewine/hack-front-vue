@@ -3,7 +3,7 @@
       class="background d-flex flex-column position-relative">
     <Snowf v-bind="snowConf" v-if="isWinter"/>
     <b-row class="justify-content-center align-items-end position-absolute" no-gutters>
-      <b-col class="mb-2 mb-lg-5 d-flex justify-content-center" cols="12">
+      <b-col class="d-flex justify-content-center" cols="12">
         <!-- <b-button :href="applicationForm" class="apply" target="_blank" disabled>ZAPISY WKRÓTCE</b-button> -->
         <b-button :href="applicationForm" class="apply" target="_blank">ZAPISZ SIĘ</b-button>
       </b-col>
@@ -46,20 +46,20 @@ export default {
 
 <style scoped lang="scss">
 .background {
-  height: 100vh;
+  height: 45vw;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
   background-attachment: fixed;
-
+  
   .position-absolute {
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom: 9vh;
+    left: 0vw;
+    right: 0vw;
 
     .apply {
       @include media-breakpoint-up(md) {
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
     }
   }
