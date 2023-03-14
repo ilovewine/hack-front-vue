@@ -5,7 +5,7 @@
     <b-row class="justify-content-center align-items-end position-absolute" no-gutters>
       <b-col class="d-flex justify-content-center" cols="12">
         <!-- <b-button :href="applicationForm" class="apply" target="_blank" disabled>ZAPISY WKRÓTCE</b-button> -->
-        <b-button :href="applicationForm" class="apply" target="_blank">ZAPISZ SIĘ</b-button>
+        <b-button :href="applicationForm" class="apply" target="_blank" disabled>KONIEC ZAPISÓW</b-button>
       </b-col>
     </b-row>
   </div>
@@ -18,7 +18,7 @@ export default {
   name: 'Main',
   data() {
     return {
-      applicationForm: 'https://forms.gle/onpnUqFZQKveyA5EA',
+      // applicationForm: 'https://forms.gle/onpnUqFZQKveyA5EA',
       snowConf: {
         amount: 150,
         size: 7,
