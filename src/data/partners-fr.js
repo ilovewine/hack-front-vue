@@ -27,7 +27,7 @@ export default {
     },
     {
       image: require('@/assets/images/partners/fr/GE.png'),
-      href: 'https://www.gehealthcare.pl/',
+      href: 'https://join-ge.cloud.gehealthcare.com/',
       name: 'GE',
     },
     {
@@ -63,11 +63,11 @@ export default {
     {
       image: require('@/assets/images/partners/fr/oracle.png'),
       href: 'https://www.oracle.com/pl/',
-      name: 'oracle',
+      name: 'Oracle',
     },
     {
       image: require('@/assets/images/partners/fr/nnokia.png'),
-      href: 'https://www.nokia.com/about-us/',
+      href: 'https://www.nokiakrakow.pl',
       name: 'Nokia',
     }
   ]
