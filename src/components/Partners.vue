@@ -1,13 +1,13 @@
 <template>
   <b-row class="pb-5" no-gutters>
-    <!-- <b-col cols="12">
-      <h1 class="text-center my-4 my-sm-5 display-3 header-font">Partner główny poprzedniej edycji </h1>
+     <b-col cols="12">
+      <h1 class="text-center my-4 my-sm-5 display-3 header-font">Partner honorowy </h1>
     </b-col>
     <b-col class="mx-auto" cols="11" lg="8" md="10">
       <b-row>
         <Partner is-main :partner="partnersFr.main"/>
       </b-row>
-    </b-col> -->
+    </b-col> 
     <b-col cols="12">
       <h1 class="text-center my-4 my-sm-5 display-3 header-font">Partnerzy</h1>
     </b-col>
