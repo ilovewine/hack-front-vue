@@ -1,11 +1,15 @@
 export default {
   main: 
-    {
+    [{
       image: require('@/assets/images/partners/fr/DD.png'),
       href: 'https://digitaldragons.pl/',
       name: 'DD',
-    }
-  ,
+    },
+    {
+      image: require('@/assets/images/partners/fr/kpt.jpg'),
+      href: 'https://www.kpt.krakow.pl',
+      name: 'Krakowski Park Technologiczny',
+    }],
   normal: [
     {
       image: require('@/assets/images/partners/fr/hid.jpg'),
@@ -16,11 +20,6 @@ export default {
       image: require('@/assets/images/partners/fr/Capgemini.png'),
       href: 'https://www.capgemini.com/pl-pl/',
       name: 'Capagemini',
-    },
-    {
-      image: require('@/assets/images/partners/fr/kpt.jpg'),
-      href: 'https://www.kpt.krakow.pl',
-      name: 'Krakowski Park Technologiczny',
     },
     {
       image: require('@/assets/images/partners/fr/sabre.png'),

@@ -5,7 +5,7 @@
     </b-col>
     <b-col class="mx-auto" cols="11" lg="8" md="10">
       <b-row>
-        <Partner is-main :partner="partnersFr.main"/>
+        <Partner :key="index" is-main :partner="partner" v-for="(partner, index) in partnersFr.main"/>
       </b-row>
     </b-col> 
     <b-col cols="12">
