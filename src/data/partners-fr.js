@@ -70,6 +70,11 @@ export default {
       image: require('@/assets/images/partners/fr/nnokia.png'),
       href: 'https://www.nokiakrakow.pl',
       name: 'Nokia',
+    },
+    {
+      image: require('@/assets/images/partners/fr/codete.jpg'),
+      href: 'https://codete.com/',
+      name: 'Codete',
     }
   ]
 }
