@@ -37,7 +37,7 @@ export default {
       name: 'Hitachi',
     },
     {
-      image: require('@/assets/images/partners/fr/allegro.jpg'),
+      image: require('@/assets/images/partners/fr/allegro_tech.jpg'),
       href: 'https://allegro.pl/',
       name: 'Allegro',
     },
